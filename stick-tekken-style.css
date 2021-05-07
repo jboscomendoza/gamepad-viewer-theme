@@ -195,7 +195,7 @@ strong {
 
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: url(https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-button.png) center no-repeat;
+    background: url('https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-button.png') center no-repeat;
     height: 534px;
     width: 1122px;
 }
@@ -219,15 +219,15 @@ strong {
 .fight-stick .trigger-button {
     width: 123px;
     height: 123px;
-    background: #333333;
+    background: #8205b3;
     border-radius: 100%;
     opacity: 1;
     display: block;
 }
 
 .fight-stick .trigger-button.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(1);
+    transform: translateY(6px);
+    -webkit-filter: saturate(1.6);
 }
 
 .fight-stick .trigger-button.left {
@@ -252,15 +252,15 @@ strong {
 .fight-stick .bumper {
     width: 123px;
     height: 123px;
-    background: #333333;
+    background: #8205b3;
     border-radius: 100%;
     opacity: 1;
     display: block;
 }
 
 .fight-stick .bumper.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(1);
+    transform: translateY(6px);
+    -webkit-filter: saturate(1.6);
 }
 
 .fight-stick .bumper.left {
@@ -285,7 +285,7 @@ strong {
 }
 
 .fight-stick .p0:after {
-    content: "Player 1";
+    content: "";
 }
 
 .fight-stick .p1:after {
@@ -342,7 +342,7 @@ strong {
 .fight-stick .button {
     width: 123px;
     height: 123px;
-    background: #333333;
+    background: #8205b3;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -350,8 +350,8 @@ strong {
 }
 
 .fight-stick .button.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(1);
+    transform: translateY(6px);
+    -webkit-filter: saturate(1.6);
 }
 
 .fight-stick .a {
@@ -380,7 +380,7 @@ strong {
     height: 221px;
     top: 199px;
     left: 192px;
-    background: url(https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-lever.png)
+    background: url('https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-lever.png')
 }
 
 .fight-stick .fstick.up {
