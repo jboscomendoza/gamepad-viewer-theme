@@ -195,7 +195,7 @@ strong {
 
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: url(stick-assets/base.svgz) center no-repeat;
+    background: url(https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-button.png) center no-repeat;
     height: 534px;
     width: 1122px;
 }
@@ -380,7 +380,7 @@ strong {
     height: 221px;
     top: 199px;
     left: 192px;
-    background: url(stick-assets/stick.svgz)
+    background: url(https://raw.githubusercontent.com/jboscomendoza/gamepad-viewer-theme/main/stick-tekken-lever.png)
 }
 
 .fight-stick .fstick.up {
