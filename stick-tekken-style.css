@@ -308,12 +308,13 @@ strong {
     left: 49px;
 }
 
+
 .fight-stick .back, .fight-stick .start {
-    width: 70px;
-    height: 70px;
+    width: 0px;
+    height: 0px;
     background: #333333;
     display: block;
-    border-radius: 100%;
+    border-radius: 100%;*/
 }
 
 .fight-stick .back {
@@ -330,6 +331,7 @@ strong {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
+
 
 .fight-stick .abxy {
     position: absolute;
